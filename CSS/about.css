@@ -1,0 +1,106 @@
+body {
+    background-image: url('/images/background/bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3cm;
+    margin-top: 2cm;
+}
+
+
+.style {
+    border-radius: 20px 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3cm;
+    margin-bottom: 3cm;
+    box-shadow: 0.5px 0.5px 60px rgb(255, 180, 146), -0.5px -0.5px 60px rgb(255, 180, 146), -0.5px 0.5px 60px rgb(255, 180, 146), 0.5px -0.5px 60px rgb(255, 180, 146);
+}
+
+#style2 {
+    border-radius: 20px 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2cm;
+    margin-bottom: 3cm;
+}
+
+
+@font-face {
+    font-family: MYFAMILY;
+    src: url("/fonts/Vintage Display.ttf");
+}
+
+@font-face {
+    font-family: BG;
+    src: url("/fonts/BigShouldersInlineDisplay-Bold.ttf");   
+}
+
+@font-face {
+    font-family: DLE;
+    src: url("/fonts/DleDigitalRegular-62Vo.ttf");   
+}
+
+@font-face {
+    font-family: JSANS;
+    src: url('/fonts/JosefinSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: JSLAB;
+    src: url('/fonts/JosefinSlab-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: AMB;
+    src: url('/fonts/Ambrosia.ttf');
+}
+
+@font-face {
+    font-family: APB;
+    src: url('/fonts/Apple Butter.ttf');
+}
+
+
+p {
+    display: block;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5cm;
+    font-family: JSLAB;
+    letter-spacing: 2px;
+    line-height: 50px;
+    word-spacing: 1px;
+    font-size: 25px;
+    color:rgb(255, 180, 146);
+    text-align: justify;
+}
+
+
+.scale {
+    font-size: 50px;
+    font-family: APB;
+    text-align: center;
+}
+
+
+button {
+    background-color: chocolate;
+    border: 2px solid chocolate;
+    padding: 10px 1%;
+    font-family: AMB;
+    font-size: 25px;
+    color: aliceblue;
+    margin-left: 1cm;
+    transition: 500ms;
+}
+
+
+button:hover {
+    background-color: rgb(146, 70, 16);
+    border: 2px solid rgb(146, 70, 16);
+    box-shadow: 2px 2px 9px aliceblue;
+    cursor: pointer;
+}

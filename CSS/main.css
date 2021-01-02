@@ -1,0 +1,83 @@
+body {
+    background-image: url('/images/background/bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4cm;
+    margin-bottom: 10%;
+    border-radius: 10px 40px;
+    transition: 500ms;
+}
+
+img:hover {
+    box-shadow: 6px 6px 9px rgb(184, 178, 165);
+    transform: translate(0px, -20px);
+}
+
+h1 {
+    text-align: center;
+    color: #ff9646;
+    font-size: 80px;
+    font-family: AMB;
+}
+
+@font-face {
+    font-family: MYFAMILY;
+    src: url("/fonts/Vintage Display.ttf");
+}
+
+@font-face {
+    font-family: BG;
+    src: url("/fonts/BigShouldersInlineDisplay-Bold.ttf");   
+}
+
+@font-face {
+    font-family: DLE;
+    src: url("/fonts/DleDigitalRegular-62Vo.ttf");   
+}
+
+@font-face {
+    font-family: JSANS;
+    src: url('/fonts/JosefinSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: JSLAB;
+    src: url('/fonts/JosefinSlab-Regular.ttf');
+}
+
+@font-face {
+    font-family: AMB;
+    src: url('/fonts/Ambrosia.ttf');
+}
+
+@font-face {
+    font-family: APB;
+    src: url('/fonts/Apple Butter.ttf');
+}
+
+a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color: #ffc79b;
+    margin-left: 2%;
+    font-family: APB;
+    font-size: 30px;
+    transition: 500ms;
+    margin-bottom: 5%;
+}
+
+a:hover {
+    color: #d8772d;
+    position: relative;
+    transform: translate(20px, 0px);
+    font-size: 40px;
+    text-decoration: underline #ffc79b;
+}
